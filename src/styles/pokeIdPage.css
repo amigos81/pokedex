@@ -1,0 +1,200 @@
+.pokeid {
+    margin: auto;
+    max-width: 900px;
+    
+    margin-top: 50px;
+}
+
+.pokeid__container {
+    box-shadow: 0px 3px 6px 0px #00000026;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.pokeid_color {
+    position: absolute;
+    /* background-color: red; */
+    width: 100%;
+    height: 100px;
+}
+
+.pokeid__container figure {
+    width: 200px;
+    z-index: 10;
+}
+
+.pokeid__container h1:first-letter {
+    text-transform: uppercase;
+}
+
+.pokeid__order {
+    border: 1px solid #D3D3D3;
+    padding: 5px;
+}
+
+/* ==================================== */
+/* ==================================== */
+.divider {
+    /* margin: 20px; */
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.side {
+    width: 30%;
+    padding: 30px 0;
+}
+
+.middle {
+    width: 30%;
+    padding: 20px 0;
+    font-size: 1.3rem;
+}
+
+.middle p:first-letter {
+    text-transform: uppercase;
+}
+
+/* ==================================== */
+/* ==================================== */
+
+.pokeid__weight_height {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    padding: 15px;
+    width: 20%;
+    gap: 10px;
+}
+
+.pokeid__weight_height li {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.pokeid__weight_height li span {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* ==================================== */
+/* ==================================== */
+
+.pokeid__type_ability {
+    /* margin-top: 20px; */
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    /* width: 20%; */
+    gap: 10px;
+    text-align: center;
+}
+
+.pokeid__type {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.pokeid__type div {
+    width: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.pokeid__ability {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.pokeid__ability div {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+/* ==================================== */
+/* ==================================== */
+.pokeid__stats {
+    width: 100%;
+    align-self: start;
+    padding: 0 20px;
+    margin-bottom: 20px;
+
+}
+.stats__list{
+    margin-bottom: 10px;
+}
+.stats__name {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 0; */
+    font-size: 0.8rem;
+}
+
+.stats__base_stat {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #D3D3D3;
+}
+
+.stats__base_stat div {
+    /* width: 50%; */
+    height: 20px;
+    background: linear-gradient(to right, #FCD676, #E6901E);
+    /* width:50% */
+}
+
+/* ==================================== */
+/* ==================================== */
+
+.pokeid__movements{
+    padding: 20px;
+    margin: 40px 0;
+    box-shadow: 0px 3px 6px 0px #00000026;
+}
+/* ==================================== */
+/* ==================================== */
+.divider__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider__right .middle{
+    margin: 20;
+    width: 20%;
+}
+
+.divider__right .side{
+    margin: 20;
+    width: 80%;
+}
+/* ==================================== */
+/* ==================================== */
+.movements__items{
+    line-height : 35px;
+    display: inline;
+    padding: 5px;
+    background-color: #E5E5E5;
+    border-radius: 50px;
+    margin: 5px;
+}

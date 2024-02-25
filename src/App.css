@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --color-fighting: #0000;
+    --color-flying: #735259;
+    --color-poison: #5B3184;
+    --color-ground: #654008;
+    --color-rock: #4F4F4F;
+    --color-bug: #4AB648;
+    --color-ghost: #000000;
+    --color-steel: #000000;
+    --color-fire: #E6901E;
+    --color-water: #1479FB;
+    --color-grass: #416460;
+    --color-electric: #ffd500;
+    --color-psychic: #000000;
+    --color-ice: #000000;
+    --color-dragon: #000000;
+    --color-dark: #000000;
+    --color-fairy: #000000;
+    --color-normal: #CEC49C;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    /* background-color: white;
+    color: white; */
+    /* background: linear-gradient(blue, pink); */
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+input,
+button {
+    display: inline-block;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+span {
+    /* color: red; */
+}
